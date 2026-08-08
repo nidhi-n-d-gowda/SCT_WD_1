@@ -1,31 +1,38 @@
-# SCT_WD_1: Responsive Portfolio Landing Page 🚀
+# SkillCraft Technology — Task 01: Responsive Landing Page 🚀
 
 ![SkillCraft Technology](https://img.shields.io/badge/SkillCraft%20Technology-Web%20Development%20Internship-purple?style=for-the-badge)
-![Task](https://img.shields.io/badge/Task-SCT__WD__1-pink?style=for-the-badge)
+![Task](https://img.shields.io/badge/Task-Task__01-pink?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-A modern, highly responsive portfolio landing page built as part of the **SkillCraft Technology** Web Development Internship Program (**Batch AUG26**, Offer Code: `SCT/AUG26/1544`).
+A modern, responsive landing page featuring an interactive fixed navigation menu, built for **SkillCraft Technology** Web Development Internship (**Batch AUG26**, Offer Code: `SCT/AUG26/1544`).
 
 ---
 
-## 🎨 Visual Features
+## 🎯 Task 01 Specification & Features
 
-- **Vibrant Gradient Theme:** Custom neon/purple ambient blobs with CSS blur backdrop filters.
-- **Glassmorphism Design:** Sleek translucent card UI elements.
-- **Dynamic Typewriter Effect:** Live cycling subtitle keywords powered by vanilla JavaScript.
-- **Full Mobile Responsiveness:** Drawer navigation menu optimized for smartphones, tablets, and desktop.
-- **Interactive Form:** Real-time feedback contact section.
-- **Internship Spotlight:** Highlighting SCT program timelines and project tracks.
+1. **Fixed Navigation Bar:** 
+   - Positioned fixed at the top of the page, visible across all sections (`Home`, `About`, `Services`, `Projects`, `Contact`).
+2. **Scroll & Hover Style Transitions:**
+   - **On Scroll:** Dynamically darkens background opacity, increases backdrop blur, and adds a glowing border.
+   - **On Hover:** Smooth color transitions, glowing active indicators (`#06b6d4`), and translucent pill background highlights.
+   - **ScrollSpy:** Automatically detects and highlights the current section in view as the user scrolls.
+3. **Responsive Mobile Menu:**
+   - Converts to an animated hamburger menu on tablet and mobile screens.
+4. **Hero Section:**
+   - Features heading *"Build. Innovate. Transform."*, subtitle, CTAs, and a futuristic code preview visual card.
+5. **About, Services & Projects Sections:**
+   - Clean glassmorphism feature cards with micro-animations.
+   - Project cards: *Responsive Landing Page*, *Smart Parking System*, and *AI Data Analysis*.
+6. **Interactive Contact Form:**
+   - JavaScript client-side validation and success toast feedback.
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-* **HTML5** — Semantic structuring and accessibility.
-* **CSS3** — Custom design system, CSS grid/flexbox, keyframe animations, glassmorphism.
-* **JavaScript (ES6+)** — DOM manipulation, typing animations, mobile drawer handling.
-* **FontAwesome 6** — Modern icon set.
-* **Google Fonts** — Plus Jakarta Sans typography.
+- **HTML5:** Semantic document structure.
+- **CSS3:** Custom design system, CSS Grid/Flexbox, Glassmorphism, CSS variables.
+- **Vanilla JavaScript:** Event listeners, ScrollSpy section detection, drawer toggle, and form validation.
 
 ---
 
@@ -34,35 +41,18 @@ A modern, highly responsive portfolio landing page built as part of the **SkillC
 ```
 SCT_WD_1_Portfolio/
 │
-├── index.html        # Main HTML markup
-├── style.css         # Design system & responsive layout styles
-├── script.js        # Interactive JS logic & animations
+├── index.html        # Main HTML structure
+├── style.css         # Styling, glassmorphism & responsive layout
+├── script.js        # Navbar scroll transitions & form validation
 └── README.md         # Documentation
 ```
 
 ---
 
-## 🚀 Quick Start & Local Preview
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/SCT_WD_1.git
-   cd SCT_WD_1
-   ```
-
-2. **Run locally:**
-   Open `index.html` directly in your browser or run a simple server:
-   ```bash
-   npx http-server . -p 8080
-   ```
-
-3. View live at `http://localhost:8080`
-
----
-
-## ✍️ Author & Acknowledgements
+## ✍️ Author & Credits
 
 **Nidhi N D**  
+Information Science and Engineering Student  
 Web Development Intern @ **SkillCraft Technology**  
 * #SkillCraftTechnology
 * #WebDevelopment
