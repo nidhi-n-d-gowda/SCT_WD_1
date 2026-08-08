@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nidhi N D | Full-Stack & Web Developer Portfolio</title>
+    <meta name="description" content="Personal Portfolio of Nidhi N D - Web Development Intern at SkillCraft Technology. Highlighting projects, skills, and interactive web experiences.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Gradient Blobs -->
+    <div class="gradient-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#hero" class="logo">
+                <span class="logo-accent">&lt;</span>Nidhi<span class="logo-accent">/&gt;</span>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a>
+                <a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a>
+                <a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a>
+                <a href="#internship" class="nav-link"><i class="fa-solid fa-briefcase"></i> Internship</a>
+                <a href="#contact" class="nav-link btn-nav"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="pulse-dot"></span> Web Development Intern @ SkillCraft Tech
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Nidhi N D</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    I build <span class="typewriter" id="typewriter"></span>
+                </h2>
+                <p class="hero-desc">
+                    Passionate Web Developer crafting visually stunning, responsive, and user-centric web applications. Currently building high-impact projects during my SkillCraft Technology internship.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span> <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:contact@skillcrafttech.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-card glass-card">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="file-name">developer.config.js</span>
+                    </div>
+                    <pre class="code-snippet"><code><span class="code-keyword">const</span> developer = {
+  name: <span class="code-string">'Nidhi N D'</span>,
+  role: <span class="code-string">'Web Development Intern'</span>,
+  company: <span class="code-string">'SkillCraft Technology'</span>,
+  passions: [<span class="code-string">'UI/UX'</span>, <span class="code-string">'Frontend'</span>, <span class="code-string">'Creative Code'</span>],
+  status: <span class="code-string">'Ready to Innovate 🚀'</span>
+};</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Get to know me</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass-card">
+                    <div class="icon-box"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3>Creative Problem Solver</h3>
+                    <p>I enjoy breaking down complex UI challenges into elegant, clean code solutions with robust JavaScript and CSS aesthetics.</p>
+                </div>
+                <div class="about-card glass-card">
+                    <div class="icon-box"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                    <h3>Responsive First Design</h3>
+                    <p>Every layout I construct looks vibrant and functions seamlessly across all screens—from mobile devices to 4K displays.</p>
+                </div>
+                <div class="about-card glass-card">
+                    <div class="icon-box"><i class="fa-solid fa-rocket"></i></div>
+                    <h3>SkillCraft Tech Intern</h3>
+                    <p>Selected for the Web Development track at SkillCraft Technology (Batch AUG26, SCT/AUG26/1544), building real-world applications.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Technical Toolkit</span>
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-pill glass-card"><i class="fa-brands fa-html5 skill-icon html"></i> HTML5</div>
+                <div class="skill-pill glass-card"><i class="fa-brands fa-css3-alt skill-icon css"></i> CSS3 / Modern Flex & Grid</div>
+                <div class="skill-pill glass-card"><i class="fa-brands fa-js skill-icon js"></i> JavaScript (ES6+)</div>
+                <div class="skill-pill glass-card"><i class="fa-brands fa-react skill-icon react"></i> React.js</div>
+                <div class="skill-pill glass-card"><i class="fa-brands fa-git-alt skill-icon git"></i> Git & GitHub</div>
+                <div class="skill-pill glass-card"><i class="fa-solid fa-crop-simple skill-icon ui"></i> Responsive UI/UX</div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Internship Tasks & Projects</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Task 1 Card -->
+                <article class="project-card glass-card">
+                    <div class="project-badge">SCT_WD_1</div>
+                    <div class="project-content">
+                        <h3>Responsive Portfolio Landing Page</h3>
+                        <p>Task 1: A high-performance, gradient-themed responsive landing page built with modern HTML5, CSS3, dynamic animation, and JavaScript interactivity.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Glassmorphism</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#hero" class="project-btn"><i class="fa-solid fa-eye"></i> Live Demo</a>
+                            <a href="https://github.com" target="_blank" class="project-btn outline"><i class="fa-brands fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Task 2 Preview -->
+                <article class="project-card glass-card">
+                    <div class="project-badge">SCT_WD_2</div>
+                    <div class="project-content">
+                        <h3>Interactive Web Application</h3>
+                        <p>Task 2 (Upcoming): An interactive web application featuring state management, local storage, and real-time DOM updates.</p>
+                        <div class="project-tags">
+                            <span>JavaScript ES6</span>
+                            <span>DOM Manipulation</span>
+                            <span>Local Storage</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="status-tag"><i class="fa-solid fa-clock"></i> Scheduled</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Task 3 Preview -->
+                <article class="project-card glass-card">
+                    <div class="project-badge">SCT_WD_3</div>
+                    <div class="project-content">
+                        <h3>Full-Featured Web Platform</h3>
+                        <p>Task 3 (Upcoming): A comprehensive full-featured web app with advanced interactivity and dynamic dataset rendering.</p>
+                        <div class="project-tags">
+                            <span>Advanced JS</span>
+                            <span>API Integration</span>
+                            <span>UI Components</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="status-tag"><i class="fa-solid fa-clock"></i> Scheduled</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Internship Spotlight -->
+        <section id="internship" class="section">
+            <div class="internship-banner glass-card">
+                <div class="internship-info">
+                    <div class="company-badge"><i class="fa-solid fa-certificate"></i> SkillCraft Technology</div>
+                    <h2>Web Development Internship Program</h2>
+                    <p>Offer Letter Code: <strong>SCT/AUG26/1544</strong> | Program Duration: August 1 – August 31, 2026</p>
+                    <ul class="internship-checklist">
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Liftoff:</strong> August 1, 2026</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Check-In Window:</strong> August 11 – 14, 2026</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Final Submission:</strong> September 5, 2026</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">Let's Connect</span>
+                <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="contact-container glass-card">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required placeholder="Nidhi N D">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" required placeholder="nidhi@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="5" required placeholder="Hi Nidhi, I saw your SkillCraft portfolio..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Nidhi N D | Created for <strong>SkillCraft Technology</strong> Web Development Internship</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
